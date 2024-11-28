@@ -1,0 +1,227 @@
+/* Reset and general styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Navbar */
+  header {
+    background-color: #333;
+    padding: 1rem;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  /* Hero Section */
+  #home {
+    background: url('Istrav2.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 120px 20px;
+    text-align: center;
+  }
+  
+  #home h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+  }
+  
+  #home p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .cta-button {
+    background-color: #ff6600;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #e55d00;
+  }
+  
+  /* Destinations Section */
+  #destinations {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  #destinations h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  #destinations p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+  }
+  
+  .destination-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .destination-card {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 280px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .destination-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .destination-card h3 {
+    font-size: 1.5rem;
+    padding: 10px;
+    background-color: #ff6600;
+    color: white;
+  }
+  
+  .destination-card p {
+    padding: 10px;
+    font-size: 1rem;
+  }
+  
+  /* Tours Section */
+  #tours {
+    background-color: #ff6600;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  #tours h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  #tours p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+  }
+  
+  .tour-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .tour-card {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    width: 280px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tour-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .tour-card p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  /* Contact Section */
+  #contact {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  #contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  form input, form textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  form button {
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  form button:hover {
+    background-color: #e55d00;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .footer-content p {
+    font-size: 1rem;
+  }
+  

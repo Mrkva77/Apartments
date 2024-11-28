@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login & Register</title>
+    <link rel="stylesheet" href="CSSLOGIN.css">
+    <script src="Login.js" defer></script>
+</head>
+<body>
+
+    <!-- Navbar Section -->
+    <header>
+    <nav>
+        <h1 style="color:  #ff6600;" id="naslov">Login</h1>
+        <ul class="nav-links">
+            <li><a href="html.v1.2.aprt.html">Home</a></li>
+            <li><a href="Login.html">Login</a></li>
+            <li><a href="Register.html">Register</a></li> 
+        </ul>
+    </nav>
+    </header>
+
+
+
+    <form id="login-form">
+        <div>
+            <label for="username">Username:</label>
+            <input type="text" id="username" placeholder="Enter username" required>
+        </div>
+
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" placeholder="Enter password" required>
+        </div>
+
+        <button onclick="pozdravi(event)" type="submit">Login</button>
+    </form>
+    
+    <div id="poruka" style="text-align: center; margin-top: 20px;"></div>
+
+    <br>
+
+    <p style="text-align: center;">Don't have an account? <a href="Register.html">Register here</a></p>
+</body>
+</html>
