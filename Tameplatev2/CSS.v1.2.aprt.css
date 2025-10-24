@@ -1,4 +1,3 @@
-/* Reset and general styles */
 * {
     margin: 0;
     padding: 0;
@@ -224,4 +223,21 @@
   .footer-content p {
     font-size: 1rem;
   }
-  
+  .btnRovinj{
+    font-size: 1.5rem;
+    padding: 10px;
+    background-color: #ff6600;
+    color: white;
+  }
+    .btnPula{
+    font-size: 1.5rem;
+    padding: 10px;
+    background-color: #ff6600;
+    color: white;
+  }
+    .btnUmag{
+    font-size: 1.5rem;
+    padding: 10px;
+    background-color: #ff6600;
+    color: white;
+  }
